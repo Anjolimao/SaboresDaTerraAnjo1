@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Sabores da Terra</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+        <h2>Nossos Contactos</h2>
+        <p>+2588472080074 ou +258837208074</p>
+
+    </header>
+
+    <form id="form-contato" onsubmit="return validarContato()">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="assets/js/script.js"></script>
+    <a href="index.html">Pagina principal</a>
+</body>
+
+</html>

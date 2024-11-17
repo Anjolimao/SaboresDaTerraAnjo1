@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    background: white;
+    border: none;
+    text-align: center;
+}
+
+.logo {
+    color: blue;
+}
+
+.menu {
+    flex: 60%;
+    border: none;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: blue;
+    border-top: 4px solid red;
+}
+
+#botao {
+    background: rgb(90, 166, 185);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: red;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background: rgb(181, 192, 181);
+    padding-top: 100px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(171, 48, 101);
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: blue;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: rgb(90, 166, 185);
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: red;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+}
+
+section {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2 {
+    color: blue;
+    width: 100%;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.servcos {
+    display: inline-block;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: rgb(190, 220, 228);
+}
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, white, rgb(230, 150, 59), red);
+    text-align: center;
+    
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.restaurante {
+    flex: 20%;
+    margin-left: 10%;
+    border: none;
+    text-align: center;
+    color: blue;
+}
+.whatsapp{
+    position:fixed;
+    bottom: 500px;
+    right: 5px;
+}

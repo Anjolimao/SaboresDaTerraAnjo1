@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(218, 196, 196);
+  }
+  
+  h1, h2 {
+    color: #ab6e6e;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+  }
+  .whatsapp{
+    position:fixed;
+    bottom: 500px;
+    right: 5px;
+}
+
+  
